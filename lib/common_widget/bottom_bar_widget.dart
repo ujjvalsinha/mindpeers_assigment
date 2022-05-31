@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mindpeers_assigment/common_widget/normal_screen.dart';
 import 'package:mindpeers_assigment/core/app_configs/colors.dart';
 import 'package:mindpeers_assigment/common_widget/basic_screen.dart';
 import 'package:mindpeers_assigment/core/app_configs/constants.dart';
@@ -31,15 +32,15 @@ class _BottomBarWidgetState extends State<BottomBarWidget> {
       ),
       const BottomNavigationBarItem(
         icon: Icon(
-          Icons.more,
+          Icons.baby_changing_station,
         ),
-        label: Constants.navigationMore,
+        label: Constants.navigationBoats,
       ),
       const BottomNavigationBarItem(
         icon: Icon(
-          Icons.more,
+          Icons.dashboard_customize,
         ),
-        label: Constants.navigationMore,
+        label: Constants.navigationInsights,
       ),
       const BottomNavigationBarItem(
         icon: Icon(
@@ -63,10 +64,10 @@ class _BottomBarWidgetState extends State<BottomBarWidget> {
       },
       children: const <Widget>[
         HomeScreen(),
-        MoreScreen(),
+        NormalScreen(title: "Thearpy"),
         BasicScreen(),
-        HomeScreen(),
-        HomeScreen(),
+        NormalScreen(title: "Insights"),
+        MoreScreen(),
       ],
     );
   }
