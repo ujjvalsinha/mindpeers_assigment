@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mindpeers_assigment/colors.dart';
+import 'package:mindpeers_assigment/core/app_configs/colors.dart';
 import 'package:mindpeers_assigment/core/app_configs/screen_names.dart';
 import 'package:mindpeers_assigment/feature/authentication/cubit/login_cubit.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
-import 'package:mindpeers_assigment/colors.dart';
+import 'package:mindpeers_assigment/core/app_configs/colors.dart';
 import 'package:mindpeers_assigment/common_widget/bottom_bar_widget.dart';
 import 'package:mindpeers_assigment/core/app_configs/constants.dart';
 

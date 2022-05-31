@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mindpeers_assigment/colors.dart';
+import 'package:mindpeers_assigment/core/app_configs/colors.dart';
 
 class CustomAppbar extends StatefulWidget {
   const CustomAppbar({Key? key}) : super(key: key);

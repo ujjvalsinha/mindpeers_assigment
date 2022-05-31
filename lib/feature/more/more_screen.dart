@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mindpeers_assigment/colors.dart';
+import 'package:mindpeers_assigment/core/app_configs/colors.dart';
 import 'package:mindpeers_assigment/common_widget/custom_appbar.dart';
 import 'package:mindpeers_assigment/common_widget/mindpeers_textfield.dart';
 import 'package:mindpeers_assigment/common_widget/tag_widget.dart';

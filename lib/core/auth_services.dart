@@ -2,7 +2,6 @@ import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:mindpeers_assigment/core/app_configs/constants.dart';
-import 'package:mindpeers_assigment/core/app_configs/custom_error.dart';
 
 class AuthService {
   final FirebaseAuth _firebaseAuth;
